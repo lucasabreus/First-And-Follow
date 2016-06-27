@@ -1,0 +1,94 @@
+G = (N,T,P,S)
+N = {S,A,B,C,D,E}
+T = {a,b,c,d,e}
+P = { 
+S -> ABCDE
+A -> a | *
+B -> b | *
+C -> c
+D -> d | *
+E -> e | *
+}
+
+G = (N,T,P,S)
+N = {S,X,Y,Z}
+T = {a,b,c,d,e,f}
+P = { 
+S -> XYZ
+X -> aXb | *
+Y -> cYZcX | d
+Z -> eZYe | f
+}
+
+G = (N,T,P,A)
+N = {A,B,C,D}
+T = {b,c,d}
+P = { 
+A -> B | C | D
+B -> b
+C -> c
+D -> d
+}
+
+G = (N,T,P,S)
+N = {S,B,C}
+T = {a,b,c,d}
+P = { 
+S -> Bb | Cd
+B -> aB | *
+C -> cC | *
+}
+
+G = (N,T,P,S)
+N = {A,B,C,S}
+T = {a,g,h,d,b}
+P = { 
+S -> ACB | CbB | Ba
+A -> da | BC
+B -> g | *
+C -> h | *
+}
+
+//VERIFICAR
+G = (N,T,P,S)
+N = {S,A,B}
+T = {a,b,c,d}
+P = { 
+S -> aABb
+A -> c | *
+B -> d | *
+}
+
+G = (N,T,P,S)
+N = {S,B,C,D,E,F}
+T = {a,h,c,b}
+P = { 
+S -> aBDh
+B -> cC
+C -> bC | *
+D -> EF
+E -> g | *
+F -> f | *
+}
+
+G = (N,T,P,S)
+N = {S}
+T = {+,x,a}
+P = { 
+S -> +SS | xSS | a
+}
+
+G = (N,T,P,S)
+N = {S,A}
+T = {0,1}
+P = { 
+S -> 0A
+A -> S1 | 1
+}
+
+G = (N,T,P,S)
+N = {S}
+T = {+,x,a}
+P = { 
+S -> +SS | xSS | a
+}
