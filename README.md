@@ -33,7 +33,7 @@ Follow S: $ + a x
 Para executar será necessário ter instalado o [GCC](https://gcc.gnu.org/). Para compilar o arquivo
 ``` 
     $ g++ -o FirstAndFollow FirstAndFollow.cpp
-    $ ./FirstAndFollow < ```ArquivoComGramatica**```
+    $ ./FirstAndFollow < ArquivoComGramatica
 ```
 
     
